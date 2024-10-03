@@ -91,3 +91,18 @@ Run the script using:
 ```bash
 python toll_traffic_generator.py
 ```
+This will simulate real-time traffic and send data to the Kafka topic named `toll`. The script will output the details of each vehicle passing through the toll plaza in the console.
+
+### Running the Kafka Consumer
+The Kafka consumer script (steam-data-reader.py) reads messages from the Kafka topic and inserts the data into a MySQL table. The data is read, transformed (timestamp formatted), and then written into the livetolldata table.
+
+Run the consumer using:
+```python steam-data-reader.py```
+
+The consumer will continuously listen to the Kafka topic and insert the streamed toll traffic data into the MySQL database.
+
+###Project Structure
+.
+├── README.md                   # Project documentation
+├── toll_traffic_generator.py    # Kafka Producer to generate and stream traffic data
+├── steam-data-reader.py         # Kafka Consumer to read and store traffic data in MySQL
