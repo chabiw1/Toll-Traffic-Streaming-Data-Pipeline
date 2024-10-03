@@ -90,8 +90,4 @@ Run the script using:
 
 ```bash
 python toll_traffic_generator.py
-
-
-
-
-
+```
