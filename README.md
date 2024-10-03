@@ -27,7 +27,7 @@ The project consists of two main components:
 ## Installation
 
 ### Prerequisites
-- **Kafka**: Make sure Kafka is installed and running. You can download it from the [official Kafka website](https://kafka.apache.org/).
+- **Kafka**: Make sure Kafka is installed and running. You can download it from the [Kafka 3.8.0]([https://kafka.apache.org/](https://downloads.apache.org/kafka/3.8.0/kafka_2.12-3.8.0.tgz)).
 - **MySQL**: Install MySQL and create a database named `tolldata`.
 - **Python**: Install Python 3.x and the required packages.
 
