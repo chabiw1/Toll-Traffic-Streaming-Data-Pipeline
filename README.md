@@ -63,10 +63,10 @@ The project consists of two main components:
      ```sql
      USE tolldata;
      CREATE TABLE livetolldata (
-         timestamp VARCHAR(255),
+         timestamp DATETIME,
          vehicle_id INT,
-         vehicle_type VARCHAR(50),
-         plaza_id INT
+         vehicle_type CHAR(15),
+         toll_plaza_id SMALLINT
      );
      ```
 
