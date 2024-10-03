@@ -41,7 +41,7 @@ The project consists of two main components:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/toll-traffic-streaming.git
+    git clone https://github.com/chabiw1/Toll-Traffic-Streaming-Data-Pipeline.git
     cd toll-traffic-streaming
     ```
 
