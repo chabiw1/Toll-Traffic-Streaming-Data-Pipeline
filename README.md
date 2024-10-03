@@ -100,7 +100,10 @@ This will simulate real-time traffic and send data to the Kafka topic named `tol
 The Kafka consumer script (steam-data-reader.py) reads messages from the Kafka topic and inserts the data into a MySQL table. The data is read, transformed (timestamp formatted), and then written into the livetolldata table.
 
 Run the consumer using:
-```python steam-data-reader.py```
+
+```bash
+python steam-data-reader.py
+```
 
 The consumer will continuously listen to the Kafka topic and insert the streamed toll traffic data into the MySQL database.
 
