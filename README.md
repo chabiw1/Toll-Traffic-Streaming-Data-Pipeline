@@ -110,8 +110,8 @@ https://github.com/user-attachments/assets/39d5e993-2275-42f3-ba04-8e139dd3ec90
 The consumer will continuously listen to the Kafka topic and insert the streamed toll traffic data into the MySQL database.
 
 ###Project Structure
-
-.
+```bash.
 ├── README.md                    # Project documentation
 ├── toll_traffic_generator.py    # Kafka Producer to generate and stream traffic data
 ├── steam-data-reader.py         # Kafka Consumer to read and store traffic data in MySQL
+```
