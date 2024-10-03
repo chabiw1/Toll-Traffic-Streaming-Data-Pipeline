@@ -79,3 +79,11 @@ The traffic simulator generates random vehicle data and streams it to the Kafka 
 
 ```bash
 python traffic_simulator.py
+
+https://github.com/user-attachments/assets/0a782c45-15d3-47eb-b9c0-e35d484f7d08
+
+
+
+
+
+
