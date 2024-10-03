@@ -2,7 +2,9 @@
 
 This project simulates toll plaza traffic data and streams it into a Kafka topic, which is then consumed and stored in a MySQL database. The goal is to analyze road traffic data from various toll plazas to help decongest highways by monitoring traffic patterns in real-time.
 
-https://github.com/user-attachments/assets/3cb06db7-f555-4ef6-aee9-dd18547de082
+
+https://github.com/user-attachments/assets/39d5e993-2275-42f3-ba04-8e139dd3ec90
+
 
 ![Screenshot 2567-10-03 at 16 39 06](https://github.com/user-attachments/assets/fc9f27ab-4fd6-4be5-9ea7-3a625062ec91)
 
