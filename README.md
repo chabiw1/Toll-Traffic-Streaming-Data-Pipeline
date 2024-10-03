@@ -1,7 +1,5 @@
 # Toll-Traffic-Streaming-Data-Pipeline
 
-# Toll Traffic Streaming Data Pipeline
-
 This project simulates toll plaza traffic data and streams it into a Kafka topic, which is then consumed and stored in a MySQL database. The goal is to analyze road traffic data from various toll plazas to help decongest highways by monitoring traffic patterns in real-time.
 
 ## Project Overview
