@@ -103,6 +103,6 @@ The consumer will continuously listen to the Kafka topic and insert the streamed
 
 ###Project Structure
 .
-├── README.md                   # Project documentation
+├── README.md                    # Project documentation
 ├── toll_traffic_generator.py    # Kafka Producer to generate and stream traffic data
 ├── steam-data-reader.py         # Kafka Consumer to read and store traffic data in MySQL
