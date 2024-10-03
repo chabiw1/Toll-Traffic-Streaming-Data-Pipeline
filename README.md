@@ -99,6 +99,10 @@ The Kafka consumer script (steam-data-reader.py) reads messages from the Kafka t
 Run the consumer using:
 ```python steam-data-reader.py```
 
+
+https://github.com/user-attachments/assets/fff46fe4-4323-41d1-b01c-f768aa690314
+
+
 The consumer will continuously listen to the Kafka topic and insert the streamed toll traffic data into the MySQL database.
 
 ###Project Structure
