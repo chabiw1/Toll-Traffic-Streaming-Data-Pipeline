@@ -75,16 +75,21 @@ The project consists of two main components:
          toll_plaza_id SMALLINT
      );
      ```
-
 ## Usage
 
 ### Running the Kafka Producer (Traffic Simulator)
 
-The traffic simulator generates random vehicle data and streams it to the Kafka topic. You can run it by executing the following script:
+The Kafka producer script (`toll_traffic_generator.py`) generates random vehicle data and streams it to the Kafka topic. The data includes:
+
+- **Vehicle ID**: A random integer ID between 10,000 and 10,000,000.
+- **Vehicle Type**: Randomly chosen from `car`, `truck`, and `van`.
+- **Timestamp**: The current time.
+- **Plaza ID**: A random toll plaza ID between 4,000 and 4,010.
+
+Run the script using:
 
 ```bash
-python traffic_simulator.py
-```
+python toll_traffic_generator.py
 
 
 
