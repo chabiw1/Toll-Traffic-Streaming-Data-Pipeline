@@ -95,8 +95,3 @@ python toll_traffic_generator.py
 
 
 
-
-
-
-
-
