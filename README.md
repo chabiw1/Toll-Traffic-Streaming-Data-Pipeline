@@ -100,7 +100,7 @@ Run the consumer using:
 ```python steam-data-reader.py```
 
 
-https://github.com/user-attachments/assets/fff46fe4-4323-41d1-b01c-f768aa690314
+https://github.com/user-attachments/assets/7b4195fd-0ec8-4c16-b2e3-444d2c09b965
 
 
 The consumer will continuously listen to the Kafka topic and insert the streamed toll traffic data into the MySQL database.
